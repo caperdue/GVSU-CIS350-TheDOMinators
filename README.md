@@ -5,6 +5,7 @@ This project will be a Vue application providing information about cryptocurrenc
 ## Team Members and Roles
 
 * [Carly Perdue](https://github.com/caperdue/CIS350-HW2-Perdue)
+* [Devin Merchant](https://github.com/mDevinn/CIS350-HW2-Merchant)
 * Member 2 (Role 3, Role 4)
 * Member 3 (Role 5, Role 6)
 
