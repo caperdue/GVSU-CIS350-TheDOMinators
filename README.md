@@ -1,10 +1,10 @@
-# Team Name
+# The DOMinators
 
-Project description (~1 paragraph)
+This project will be a Vue application providing information about cryptocurrency. There will be various features in our website that will be helpful for those wanting to learn about cryptocurrency. Some features may include pulling crypto data, a chatbot, and potential analysis of cryptocurrencies!
 
 ## Team Members and Roles
 
-* Member 1 (Role 1, Role 2)
+* [Carly Perdue](https://github.com/caperdue/CIS350-HW2-Perdue)
 * Member 2 (Role 3, Role 4)
 * Member 3 (Role 5, Role 6)
 
