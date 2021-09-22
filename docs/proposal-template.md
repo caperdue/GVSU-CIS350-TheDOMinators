@@ -1,16 +1,16 @@
-Team name:
+Team name: The DOMinators
 
-Team members:
+Team members: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
 
 # Introduction
 
-Our project will be a crypto information site. It will be hosted for users who are interested in learning more about cryptocurrency. We will utilize different online resources in helping us accomplish this. Our plan is to also incorporate various elements within the site to give a more interactive website.
+Our project will be a cryptocurrency information site. It will be hosted for users who are interested in learning more about cryptocurrency. We will utilize different online resources in helping us accomplish this. Our plan is to also incorporate various elements within the site to give a more interactive website.
 
 Some features we plan on including is a way to display current cypto prices. This includes crypto like Bitcoin, Ethereum, Dogecoin, etc. We also will show relevant topics around cryptocurrency, such as a news feed. We also have been planning a potential chat bot or way to dig into analyzing cryptocurrencies on this site.
 
 # Anticipated Technologies
 
-Vue.js, JavaScript, HTML, CSS, and a place for free web hosting!
+We will be using Vue.js, JavaScript, HTML, CSS, and a place for free web hosting! 
 
 # Method/Approach
 
