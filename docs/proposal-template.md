@@ -14,7 +14,7 @@ We will be using Vue.js, JavaScript, HTML, CSS, and a place for free web hosting
 
 # Method/Approach
 
-(What is your estimated "plan of attack" for developing this project)
+Our estimated plan of attack will be to create our website incremently using Agile as our process model. Generally speaking, we will structure the website, create the website, add any APIs, get our website up in running on a webhost, then continue to add plugins and other features that we think of as we create the project. 
 
 # Estimated Timeline
 
