@@ -18,7 +18,7 @@ Our estimated plan of attack will be to create our website incremently using Agi
 
 # Estimated Timeline
 
-(Figure out what your major milestones for this project will be, including how long you anticipate it *may* take to reach that point)
+This is our expected timeline for this project
 
 # Anticipated Problems
 
