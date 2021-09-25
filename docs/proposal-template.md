@@ -20,6 +20,8 @@ Our estimated plan of attack will be to create our website incremently using Agi
 
 This is our expected timeline for this project
 
+![Project Timeline](https://user-images.githubusercontent.com/31768717/134752639-6c74469a-a095-4fe1-94e0-09c9f4a61822.png)
+
 # Anticipated Problems
 
 Moving forward with the project, the biggest challenge will likely be the learning curve required for the team to get familiar with using frameworks, APIs, and just general web development techniques and styles. Finding time to all meet together may also be challenging due to everyone's schedules being somewhat conflicting and changing often. Currently, we are meeting on Tuesdays at 6:30pm, but to find another time slot, if necassary, it would likely have to be at a pretty odd time in order to accomodate everyone. Lastly, originality may be something that takes some time to figure out because there are so many existing websites with similar concepts so we will have to find ways to differentiate ours from others.
