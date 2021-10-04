@@ -1,5 +1,5 @@
 # Overview
-<p>The purpose of this file is to function as our software requirements specification document. It contains the functional and non-functional requirements we have defined as a group for our project</p>
+The purpose of this file is to function as our software requirements specification document. It contains the functional and non-functional requirements we have defined as a group for our project
 # Functional Requirements
 1. <Name of Feature 1>
   - 1. <Functional Requirement 1>
