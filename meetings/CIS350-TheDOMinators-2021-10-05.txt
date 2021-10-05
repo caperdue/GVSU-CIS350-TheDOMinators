@@ -1,0 +1,17 @@
+Team name: The DOMinators
+
+Members present: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
+
+Date: 10/05/21
+
+Time: 6:30 - 7:30 PM
+
+Discussion points:
+* Functional requirements
+* Non-functional requirements
+* Use case diagrams for project
+
+
+Goals for next week
+* Small presentation on what was learned on Vue.JS
+* Start thinking about website
