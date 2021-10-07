@@ -1,0 +1,17 @@
+Team name: The DOMinators
+
+Members present: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
+
+Date: 9/28/21
+
+Time: 6:30 - 7:15 (45 Minutes)
+
+Discussion points:
+* Learn basic Vue.JS for the first 2 week sprint 
+* Share resources or anything interesting you found while learning
+* Create a small / basic fun Vue.JS project
+
+Goals for next week (include responsibilities)
+* Learn some Vue
+* Chit-chat about issues or questions we have with Vue
+* Share resources
