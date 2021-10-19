@@ -1,0 +1,17 @@
+
+Team name: The DOMinators
+
+Members present: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
+
+Date: 9/28/21
+
+Time: 6:30 - 7:15 (45 Minutes)
+
+Discussion points:
+* Start working on website structure
+* APIs
+* Prepare for presentation
+
+Goals for next week (include responsibilities)
+* Have Assignment 4 done
+* Work on website
