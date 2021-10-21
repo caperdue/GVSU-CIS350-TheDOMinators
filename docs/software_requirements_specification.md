@@ -1,12 +1,6 @@
 # Overview
 The purpose of this file is to function as our software requirements specification document. It contains the functional and non-functional requirements we have defined as a group for our project
 
-<<<<<<< HEAD
-2. News Page
- - 1. The news page shall contain updated news information about cryptocurrency (at least every hour)
- - 2. The news page shall have a method of interaction to view individual tidbits of information or view an article
- - 3. News page shall have sort ability to see news based on cryptocurrency and date
-=======
  ## Functional Requirements
   
   ### Crypto Price Display Page Requirements
@@ -15,7 +9,6 @@ The purpose of this file is to function as our software requirements specificati
   | FR1 | Display page shall have a place to display cryptocurrency information. | 
   | FR2 | Display page shall include at least 5 most common cryptocurrencies of this year (e.x. Ethereum, Bitcoin, Stellar, Binance Coin, Cardano) | 
   | FR3 | Display page shall show cryptocurrencies with data that updates at least every hour automatically. | 
->>>>>>> deca18187baf7e2d6d7ab08e06cf5cb09bc28b25
 
 
   ### News Page Requirements
