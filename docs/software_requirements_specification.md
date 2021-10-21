@@ -9,7 +9,7 @@ The purpose of this file is to function as our software requirements specificati
 2. News Page
  - 1. The news page shall contain updated news information about cryptocurrency (at least every hour)
  - 2. The news page shall have a method of interaction to view individual tidbits of information or view an article
- - 3. News page shall have a label to see grouped news based of cryptocurrency
+ - 3. News page shall have sort ability to see news based on cryptocurrency and date
 
 3. Chatbot
  - 1. The chatbot shall have a click pop up feature that will display the chat.
