@@ -17,3 +17,4 @@ Discussion points:
 Goals for next week
 * Finish working on indiviual parts
 * "About the developers" tab on website
+* start to thin about integrating individual ideas
