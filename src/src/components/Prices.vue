@@ -5,7 +5,7 @@
         <v-flex xs12 sm6 md6 lg4 v-for="(value, key) in cryptos" :key="value">
           <!-- BTC CARD -->
           <v-card max-width="600" class="card" v-if="key == 'BTC'">
-            <v-img src="..\assets\btc.png" aspect-ratio="3.75" contain></v-img>
+            <v-img src="@/assets/btc.png" aspect-ratio="3.75" contain></v-img>
 
             <v-card-title primary-title>
               <span class="left"> {{ key }}</span>
@@ -40,7 +40,7 @@
 
           <!-- ETH CARD -->
           <v-card max-width="600" class="card" v-if="key == 'ETH'">
-            <v-img src="..\assets\eth.png" aspect-ratio="3.75" contain> </v-img>
+            <v-img src="@/assets/eth.png" aspect-ratio="3.75" contain> </v-img>
 
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
@@ -78,7 +78,7 @@
 
           <!-- LTC CARD -->
           <v-card max-width="600" class="card" v-if="key == 'LTC'">
-            <v-img src="..\assets\ltc.png" aspect-ratio="3.75" contain></v-img>
+            <v-img src="@/assets/ltc.png" aspect-ratio="3.75" contain></v-img>
 
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
@@ -114,7 +114,7 @@
 
           <!-- DOGE CARD -->
           <v-card max-width="600" class="card" v-if="key == 'DOGE'">
-            <v-img src="..\assets\doge.png" aspect-ratio="3.75" contain></v-img>
+            <v-img src="@/assets/doge.png" aspect-ratio="3.75" contain></v-img>
 
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
@@ -153,7 +153,7 @@
 
           <!-- SOL CARD -->
           <v-card max-width="600" class="card" v-if="key == 'SOL'">
-            <v-img src="..\assets\sol.png" aspect-ratio="3.75" contain></v-img>
+            <v-img src="../assets/sol.png" aspect-ratio="3.75" contain></v-img>
 
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
@@ -190,7 +190,7 @@
           <!-- ADA CARD -->
           <v-card max-width="600" class="card" v-if="key == 'ADA'">
             <v-img
-              src="..\assets\cardano.png"
+              src="../assets/cardano.png"
               aspect-ratio="3.75"
               contain
             ></v-img>
