@@ -174,7 +174,6 @@
 import axios from "axios";
 export default {
   name: "News",
-
   data() {
     return {
       newsBTC: [],
@@ -183,7 +182,6 @@ export default {
       show: false,
     };
   },
-
   created() {
     let todaysDate=`${new Date().getFullYear()}-${new Date().getMonth()+1}-${new Date().getDate()}`
     
@@ -193,14 +191,12 @@ export default {
       )
       .then((res) => (this.newsBTC = res.data))
       .catch((err) => console.log(err));
-
     axios
       .get(
         `https://newsapi.org/v2/everything?q=ETH&from=${todaysDate}&sortBy=publishedAt&apiKey=d547e4173b4a4a838565cf33fa069dd8`
       )
       .then((res) => (this.newsETH = res.data))
       .catch((err) => console.log(err));
-
     axios
       .get(
         `https://newsapi.org/v2/everything?q=ADA&from=${todaysDate}&sortBy=publishedAt&apiKey=d547e4173b4a4a838565cf33fa069dd8`
@@ -212,5 +208,4 @@ export default {
 </script>
 
 <style>
-
 </style>

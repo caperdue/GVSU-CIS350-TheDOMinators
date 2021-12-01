@@ -12,6 +12,7 @@
 <script>
 import NavBar from './components/NavBar.vue';
 import ChatBot from './components/Chatbot.vue';
+import Footer from './components/Chatbot.vue';
 
 export default {
   name: 'App',
