@@ -25,14 +25,16 @@ The purpose of this file is to function as our software requirements specificati
   | FR7 | The chatbot shall have a click pop up feature that will display the chat. | 
   | FR8 | The chatbot shall have an question menu with clickable questions for the user to choose. | 
   | FR9 | The chatbot shall have automated responses based on the questions provided.  | 
+  | FR10 | The chatbot shall be able to show instructions on how to interact with it upon typing 'help'.  | 
+  | FR11 | The chatbot shall direct the user to the corresponding page by typing the name of the page.  | 
 
 
   ### Overall Site Requirements
   | ID | Overall Site | 
   | ---| --- | 
-  | FR10 | The overall site shall implement at least 3 tabs to separate content. | 
-  | FR11 | The overall site shall contain a header and footer with a navigation bar that is responsive and clickable. | 
-  | FR12 | All images shall contain an attribute of alternative text to accomodate those who are visually impaired.  | 
+  | FR11 | The overall site shall implement at least 3 tabs to separate content. | 
+  | FR12 | The overall site shall contain a header and footer with a navigation bar that is responsive and clickable. | 
+  | FR13 | All images shall contain an attribute of alternative text to accomodate those who are visually impaired.  | 
 
 # Non-Functional Requirements
 
@@ -66,4 +68,6 @@ The purpose of this file is to function as our software requirements specificati
   | ---| --- | 
   | NFR10 | The overall site shall have a resizing feature to accomodate both web and mobile platforms. | 
   | NFR11 | The overall site shall contain easy to read text to ensure it is user friendly. | 
-  | NFR12 | The overall site shall be compatible to run in most modern web browsers.  | 
+  | NFR12 | The overall site shall be compatible to run in most modern web browsers.  |
+  | NFR13 | The overall site shall have a bright logo on the top left of the page to stand out.  |
+  
