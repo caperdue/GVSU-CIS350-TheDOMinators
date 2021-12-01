@@ -7,14 +7,14 @@ The purpose of this file is to function as our software requirements specificati
   | ID | Crypto Price Display Page | 
   | ---| --- | 
   | FR1 | Display page shall have a place to display cryptocurrency information. | 
-  | FR2 | Display page shall include at least 5 most common cryptocurrencies of this year (e.x. Ethereum, Bitcoin, Stellar, Binance Coin, Cardano) | 
-  | FR3 | Display page shall show cryptocurrencies with data that updates at least every hour automatically. | 
+  | FR2 | Display page shall include at least 5 most common cryptocurrencies of this year (Ethereum, Bitcoin, Litecoin, Dogecoin, Solana, Cardano) | 
+  | FR3 | Display page shall show cryptocurrencies with data that updates at least every hour automatically by refreshing the page. | 
 
 
   ### News Page Requirements
   | ID | News Page | 
   | ---| --- | 
-  | FR4 | The news page shall contain updated news information about cryptocurrency (at least every hour). | 
+  | FR4 | The news page shall contain updated news information about cryptocurrency that refreshes every 15 minutes. | 
   | FR5 | The news page shall have a method of interaction to view individual tidbits of information or view an article. | 
   | FR6 | News page shall have a label to see grouped news based of cryptocurrency.  | 
 
