@@ -4,8 +4,10 @@
       <v-layout row wrap>
         <v-flex xs12 sm6 md6 lg4 v-for="(value, key) in cryptos" :key="value">
           <!-- BTC CARD -->
-          <v-card max-width="600" class="card" v-if="key == 'BTC'">
+          <v-card dark max-width="600" class="card" v-if="key == 'BTC'">
+            <div class="pt-10">
             <v-img src="@/assets/btc.png" aspect-ratio="3.75" contain></v-img>
+            </div>
 
             <v-card-title primary-title>
               <span class="left"> {{ key }}</span>
@@ -39,9 +41,10 @@
           </v-card>
 
           <!-- ETH CARD -->
-          <v-card max-width="600" class="card" v-if="key == 'ETH'">
-            <v-img src="@/assets/eth.png" aspect-ratio="3.75" contain> </v-img>
-
+          <v-card dark    max-width="600" class="card" v-if="key == 'ETH'">
+             <div class="pt-10">
+            <v-img class="mt-2" src="@/assets/eth.png" aspect-ratio="3.75" contain> </v-img>
+             </div>
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
               <v-spacer></v-spacer>
@@ -77,9 +80,10 @@
           </v-card>
 
           <!-- LTC CARD -->
-          <v-card max-width="600" class="card" v-if="key == 'LTC'">
-            <v-img src="@/assets/ltc.png" aspect-ratio="3.75" contain></v-img>
-
+          <v-card dark    max-width="600" class="card" v-if="key == 'LTC'">
+             <div class="pt-10">
+            <v-img class="mt-2" src="@/assets/ltc.png" aspect-ratio="3.75" contain></v-img>
+             </div>
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
               <v-spacer></v-spacer>
@@ -113,9 +117,10 @@
           </v-card>
 
           <!-- DOGE CARD -->
-          <v-card max-width="600" class="card" v-if="key == 'DOGE'">
-            <v-img src="@/assets/doge.png" aspect-ratio="3.75" contain></v-img>
-
+          <v-card dark    max-width="600" class="card" v-if="key == 'DOGE'">
+             <div class="pt-10">
+            <v-img class="mt-2" src="@/assets/doge.png" aspect-ratio="3.75" contain></v-img>
+             </div>
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
               <v-spacer></v-spacer>
@@ -152,9 +157,10 @@
           </v-card>
 
           <!-- SOL CARD -->
-          <v-card max-width="600" class="card" v-if="key == 'SOL'">
-            <v-img src="../assets/sol.png" aspect-ratio="3.75" contain></v-img>
-
+          <v-card dark    max-width="600" class="card" v-if="key == 'SOL'">
+             <div class="pt-10">
+            <v-img class="mt-2" src="../assets/sol.png" aspect-ratio="3.75" contain></v-img>
+             </div>
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
               <v-spacer></v-spacer>
@@ -188,12 +194,14 @@
           </v-card>
 
           <!-- ADA CARD -->
-          <v-card max-width="600" class="card" v-if="key == 'ADA'">
-            <v-img
+          <v-card dark    max-width="600" class="card" v-if="key == 'ADA'">
+             <div class="pt-10">
+            <v-img class="mt-2"
               src="../assets/cardano.png"
               aspect-ratio="3.75"
               contain
             ></v-img>
+             </div>
 
             <v-card-title primary-title>
               <span class="left"> {{ key }} </span>
@@ -266,5 +274,9 @@ export default {
 .card {
   margin: auto;
   margin: 0px 20px 20px 20px;
+}
+
+.move-down {
+  
 }
 </style>

@@ -19,10 +19,10 @@
                   </p>
                 </v-card-title>
 
-                <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
+                <v-card-subtitle>{{item.source.name}}</v-card-subtitle>
 
                 <v-card-actions>
-                  <v-btn color="orange lighten-2" text> Explore </v-btn>
+                  <v-btn :href="item.url" target="_blank" color="orange lighten-2" text> Explore </v-btn>
 
                   <v-spacer></v-spacer>
 
@@ -38,12 +38,7 @@
                     <v-divider></v-divider>
 
                     <v-card-text>
-                      I'm a thing. But, like most politicians, he promised more
-                      than he could deliver. You won't have time for sleeping,
-                      soldier, not with all the bed making you'll be doing. Then
-                      we'll go with that data file! Hey, you add a one and two
-                      zeros to that or we walk! You're going to do his laundry?
-                      I've got to find a way to escape.
+                      {{item.description}}
                     </v-card-text>
                   </div>
                 </v-expand-transition>
@@ -77,10 +72,10 @@
                   
                 </v-card-title>
 
-                <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
+                <v-card-subtitle> {{item.source.name}}</v-card-subtitle>
 
                 <v-card-actions>
-                  <v-btn color="orange lighten-2" text> Explore </v-btn>
+                  <v-btn :href="item.url" color="orange lighten-2" text> Explore </v-btn>
 
                   <v-spacer></v-spacer>
 

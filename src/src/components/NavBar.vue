@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app dark color="#16697a">
+  <v-app-bar app dark color="#028EB1AB">
     <v-img class="ma-5" src="@/assets/cryptfo.png" max-width="200"></v-img>
     <template v-slot:extension>
       <v-tabs color="#80ffd9" dark slider-color="#80ffdb">
