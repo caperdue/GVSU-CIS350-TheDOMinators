@@ -78,3 +78,6 @@ The purpose of this file is to function as our software requirements specificati
   | NFR17 | The overall site shall keep the same color scheme across all pages to maintain consistency.  |
   | NFR18 | The overall site shall have a name that is original and not copied from somewhere else.  |
   
+  # Software Artifacts
+  The purpose of this section is to display artifacts that we developed as a part of our process for this project.
+  
