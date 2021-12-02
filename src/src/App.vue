@@ -9,11 +9,12 @@
         <ChatBot class="bottom-please"/>
      <div class="footer">
         <v-img
+        class="mb-2"
           style="margin: auto"
           src="@/assets/cryptfo.png"
           max-width="200"
         ></v-img>
-        <v-row class="justify-center pl-4 pt-2">
+        <v-row class="justify-center pl-4 mb-2">
         <a href=""> <v-icon> fab fa-facebook </v-icon> </a>
         <a href=""> <v-icon> fab fa-pinterest </v-icon> </a>
         <a href=""> <v-icon> fab fa-instagram </v-icon> </a>

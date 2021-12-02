@@ -19,17 +19,17 @@
       },
       "modes": {
         "bubble": {
-          "distance": 400,
-          "duration": 2,
-          "opacity": 0.8,
-          "size": 40
+          "distance": 10,
+          "duration": 9,
+          "opacity": 1,
+          "size": 10
         },
         "push": {
-          "quantity": 4
+          "quantity": 1
         },
         "repulse": {
           "distance": 200,
-          "duration": 0.4
+          "duration": 0
         }
       }
     },
@@ -39,9 +39,9 @@
       },
       "links": {
         "color": "#FFB600",
-        "distance": 150,
+        "distance": 200,
         "enable": true,
-        "opacity": 0.5,
+        "opacity": 0.8,
         "width": 1
       },
       "collisions": {
@@ -51,7 +51,7 @@
         "direction": "none",
         "enable": true,
         "outMode": "bounce",
-        "random": false,
+        "random": true,
         "speed": 1,
         "straight": false
       },

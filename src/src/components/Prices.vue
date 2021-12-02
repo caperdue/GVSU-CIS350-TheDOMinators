@@ -275,8 +275,4 @@ export default {
   margin: auto;
   margin: 0px 20px 20px 20px;
 }
-
-.move-down {
-  
-}
 </style>
