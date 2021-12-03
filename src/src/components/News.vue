@@ -19,7 +19,7 @@
                   </p>
                 </v-card-title>
 
-                <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
+                
 
                 <v-card-actions>
                   <v-btn color="orange lighten-2" text> Explore </v-btn>
@@ -38,12 +38,7 @@
                     <v-divider></v-divider>
 
                     <v-card-text>
-                      I'm a thing. But, like most politicians, he promised more
-                      than he could deliver. You won't have time for sleeping,
-                      soldier, not with all the bed making you'll be doing. Then
-                      we'll go with that data file! Hey, you add a one and two
-                      zeros to that or we walk! You're going to do his laundry?
-                      I've got to find a way to escape.
+                      {{item.description}}
                     </v-card-text>
                   </div>
                 </v-expand-transition>
@@ -77,8 +72,7 @@
                   
                 </v-card-title>
 
-                <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
-
+               
                 <v-card-actions>
                   <v-btn color="orange lighten-2" text> Explore </v-btn>
 
@@ -185,25 +179,25 @@ export default {
   },
 
   created() {
-    let todaysDate=`${new Date().getFullYear()}-${new Date().getMonth()+1}-${new Date().getDate()}`
+    let todaysDate=`${new Date().getFullYear()}-${new Date().getMonth()+1}-${new Date().getDate()-1}`
     
     axios
       .get(
-        `https://newsapi.org/v2/everything?q=BTC&from=${todaysDate}&sortBy=publishedAt&apiKey=d547e4173b4a4a838565cf33fa069dd8`
+        `https://newsapi.org/v2/everything?q=bitcoin&from=${todaysDate}&sortBy=publishedAt&domains=coindesk.com,thestonkmarket.com&language=en&apiKey=d547e4173b4a4a838565cf33fa069dd8`
       )
       .then((res) => (this.newsBTC = res.data))
       .catch((err) => console.log(err));
 
     axios
       .get(
-        `https://newsapi.org/v2/everything?q=ETH&from=${todaysDate}&sortBy=publishedAt&apiKey=d547e4173b4a4a838565cf33fa069dd8`
+        `https://newsapi.org/v2/everything?q=ethereum&from=${todaysDate}&sortBy=publishedAt&domains=thestreet.com,bloomberg.com,coindesk.com,coinbase.com&language=en&apiKey=d547e4173b4a4a838565cf33fa069dd8`
       )
       .then((res) => (this.newsETH = res.data))
       .catch((err) => console.log(err));
 
     axios
       .get(
-        `https://newsapi.org/v2/everything?q=ADA&from=${todaysDate}&sortBy=publishedAt&apiKey=d547e4173b4a4a838565cf33fa069dd8`
+        `https://newsapi.org/v2/everything?q=cardano&from=${todaysDate}&sortBy=publishedAt&domains=fool.com,coindesk.com,coinbase.com&language=en&apiKey=d547e4173b4a4a838565cf33fa069dd8`
       )
       .then((res) => (this.newsADA = res.data))
       .catch((err) => console.log(err));
