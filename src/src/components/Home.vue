@@ -154,7 +154,7 @@ export default {
       model: 0,
       devs: [
         {name: 'Carly Perdue', img: require("../assets/perdue.jpg"), desc: '', color: "teal", location:"Muskegon, MI"}, 
-        {name: 'Priscilla Ontiveros', img: require("../assets/ontiveros.png"), desc: '', color: "purple", location:""},
+        {name: 'Priscila Ontiveros', img: require("../assets/ontiveros.png"), desc: '', color: "purple", location:"Grand Rapids, MI"},
         {name: 'Devin Merchant', img: require("../assets/merchant.jpg"), desc: '', color: "orange", location: ""},
         {name: 'Dayaseh Johnson', img: '', desc: '', color: "green", location: ""}
       ],
