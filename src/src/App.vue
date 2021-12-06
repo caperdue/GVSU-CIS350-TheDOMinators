@@ -45,9 +45,10 @@ export default {
 </script>
 <style scoped>
 .bottom-please {
-  position:absolute;
+  position:fixed;
   bottom: 0px;
   right: 0%;
+  z-index:900;
 }
 .footer{
     background-color: #16697a;

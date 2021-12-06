@@ -32,7 +32,5 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .v-tab {
    font-family: 'Anton', monospace;
-   font-size: 8rem;
-
 }
 </style>
