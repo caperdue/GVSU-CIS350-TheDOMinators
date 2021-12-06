@@ -150,7 +150,7 @@ export default {
       model: 0,
       devs: [
         {name: 'Carly Perdue', img: require("../assets/perdue.jpg"), desc: '', color: "teal", location:"Muskegon, MI"}, 
-        {name: 'Priscila Ontiveros', img: require("../assets/ontiveros.png"), desc: '', color: "purple", location:"Grand Rapids, MI"},
+        {name: 'Priscila Ontiveros', img: require("../assets/ontiveros.png"), desc: "I have a big passion for coding, especially coding to help others. One of the aspects I love the most about coding is how it makes learning a lifestyle. I am a hard working passionate student with interests in back-end development. I have 2 years of experience with Java, 3 years with C and 6 months in Python and UNIX. I am ready to grow and learn as a software developer! ", color: "purple", location:"Grand Rapids, MI"},
         {name: 'Devin Merchant', img: require("../assets/merchant.jpg"), desc: '', color: "orange", location: ""},
         {name: 'Dayaseh Johnson', img: '', desc: '', color: "green", location: ""}
       ],
