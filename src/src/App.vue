@@ -45,7 +45,7 @@ export default {
 </script>
 <style scoped>
 .bottom-please {
-  position:absolute;
+  position:fixed;
   bottom: 0px;
   right: 0%;
 }
