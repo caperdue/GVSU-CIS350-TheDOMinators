@@ -20,7 +20,7 @@
 
               <v-btn icon @click="show1 = !show1">
                 <v-icon>{{
-                  show ? "mdi-chevron-up" : "mdi-chevron-down"
+                  show1 ? "mdi-chevron-up" : "mdi-chevron-down"
                 }}</v-icon>
               </v-btn>
             </v-card-actions>
@@ -33,7 +33,7 @@
             </v-expand-transition>
         </v-card>
 
-        <v-card dark class="card" v-if="key=='ETH'" >
+        <!-- <v-card dark class="card" v-if="key=='ETH'" >
             <div class="pt-10">
             <v-img src="@/assets/eth.png" aspect-ratio="3.75" contain></v-img>
             </div>
@@ -186,7 +186,7 @@
               <scroll-new :news="newsADA"  ></scroll-new>
               </div>
             </v-expand-transition>
-        </v-card>
+        </v-card> -->
 
         
 
@@ -236,27 +236,28 @@ export default {
     async getNewsBTC(){
       let response=await this.axiosInstance.get("/v1?tickers=BTC&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
       this.newsBTC=response.data.data
-    },
-    async getNewsETH(){
-      let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
-      this.newsETH=response.data.data
-    },
-    async getNewsLTC(){
-      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
-      this.newsLTC=response.data.data
-    },
-    async getNewsDOGE(){
-      let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
-      this.newsDOGE=response.data.data
-    },
-    async getNewsSOL(){
-      let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
-      this.newsSOL=response.data.data
-    },
-    async getNewsADA(){
-      let response=await this.axiosInstance.get("/v1?tickers=ADA&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
-      this.newsADA=response.data.data
     }
+    // },
+    // async getNewsETH(){
+    //   let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+    //   this.newsETH=response.data.data
+    // },
+    // async getNewsLTC(){
+    //   let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+    //   this.newsLTC=response.data.data
+    // },
+    // async getNewsDOGE(){
+    //   let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+    //   this.newsDOGE=response.data.data
+    // },
+    // async getNewsSOL(){
+    //   let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+    //   this.newsSOL=response.data.data
+    // },
+    // async getNewsADA(){
+    //   let response=await this.axiosInstance.get("/v1?tickers=ADA&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+    //   this.newsADA=response.data.data
+    // }
 
   },
   created() {
@@ -267,11 +268,11 @@ export default {
     // let todaysDate=`${new Date().getFullYear()}-${new Date().getMonth()+1}-${new Date().getDate()-1}`
     this.getCryptoCoin()
     this.getNewsBTC()
-    this.getNewsETH()
-    this.getNewsLTC()
-    this.getNewsDOGE()
-    this.getNewsSOL()
-    this.getNewsADA()
+    // this.getNewsETH()
+    // this.getNewsLTC()
+    // this.getNewsDOGE()
+    // this.getNewsSOL()
+    // this.getNewsADA()
     
   },
 };
