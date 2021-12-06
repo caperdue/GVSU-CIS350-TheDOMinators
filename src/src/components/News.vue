@@ -234,27 +234,27 @@ export default {
     
     },
     async getNewsBTC(){
-      let response=await this.axiosInstance.get("/v1?tickers=BTC&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      let response=await this.axiosInstance.get("/v1?tickers=BTC&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
       this.newsBTC=response.data.data
     },
     async getNewsETH(){
-      let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
       this.newsETH=response.data.data
     },
     async getNewsLTC(){
-      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=jlxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
       this.newsLTC=response.data.data
     },
     async getNewsDOGE(){
-      let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
       this.newsDOGE=response.data.data
     },
     async getNewsSOL(){
-      let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
       this.newsSOL=response.data.data
     },
     async getNewsADA(){
-      let response=await this.axiosInstance.get("/v1?tickers=ADA&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      let response=await this.axiosInstance.get("/v1?tickers=ADA&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
       this.newsADA=response.data.data
     }
   },
