@@ -24,6 +24,9 @@ const cryptRoutes = [
         path: "/",
         component: Home,
     },
+    // {
+
+    // },
 ];
 
 
