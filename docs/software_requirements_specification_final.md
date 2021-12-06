@@ -6,16 +6,16 @@ The purpose of this file is to function as our software requirements specificati
   ### Crypto Price Display Page Requirements
   | ID | Crypto Price Display Page | 
   | ---| --- | 
-  | FR1 | Display page shall have a place to display cryptocurrency information. | 
-  | FR2 | Display page shall include at least 5 most common cryptocurrencies of this year (Ethereum, Bitcoin, Litecoin, Dogecoin, Solana, Cardano) | 
-  | FR3 | Display page shall show cryptocurrencies with data that updates at least every hour automatically by refreshing the page. | 
-  | FR4 | Display page shall have cryptocurrencies that are collapsible and expandable.  | 
+  | FR1 | Prices page shall have a place to display cryptocurrency information. | 
+  | FR2 | Prices page shall include at least 5 most common cryptocurrencies of this year (Ethereum, Bitcoin, Litecoin, Dogecoin, Solana, Cardano) | 
+  | FR3 | Prices page shall show cryptocurrencies with data that updates at least every hour automatically by refreshing the page. | 
+  | FR4 | Prices page shall have cryptocurrencies that are collapsible and expandable.  | 
 
 
   ### News Page Requirements
   | ID | News Page | 
   | ---| --- | 
-  | FR5 | The news page shall contain updated news information about cryptocurrency that refreshes every 15 minutes. | 
+  | FR5 | The news page shall contain updated news information about cryptocurrency. | 
   | FR6 | The news page shall have a method of interaction to view individual tidbits of information or view an article. | 
   | FR7 | News page shall have a label to see grouped news based of cryptocurrency.  | 
   | FR8 | News page shall have grouped news that are collapsible and expandable.  | 
@@ -35,7 +35,7 @@ The purpose of this file is to function as our software requirements specificati
   | ID | Overall Site | 
   | ---| --- | 
   | FR14 | The overall site shall implement at least 3 tabs to separate content. | 
-  | FR15 | The overall site shall contain a header and footer with a navigation bar that is responsive and clickable. | 
+  | FR15 | The overall site shall contain a header and with a navigation bar and footer that is responsive and clickable. | 
   | FR16 | All images shall contain an attribute of alternative text to accomodate those who are visually impaired.  | 
 
 # Non-Functional Requirements
@@ -44,10 +44,10 @@ The purpose of this file is to function as our software requirements specificati
   ### Crypto Price Display Page Requirements
   | ID | Crypto Price Display Page | 
   | ---| --- | 
-  | NFR1 | Display page shall show logos of cryptocurrencies as differentiators. | 
-  | NFR2 | Display page shall display various visual elements across the page for interaction and draw attention. | 
-  | NFR3 | Display page shall contain understandable and beginner-friendly terminology. | 
-  | NFR4 | Display page shall only pull data from reputable price sources regarding cryptocurrency prices.  | 
+  | NFR1 | Prices page shall show logos of cryptocurrencies as differentiators. | 
+  | NFR2 | Prices page shall display various visual elements across the page for interaction and draw attention. | 
+  | NFR3 | Prices page shall contain understandable and beginner-friendly terminology. | 
+  | NFR4 | Prices page shall only pull data from reputable price sources regarding cryptocurrency prices.  | 
 
 
   ### News Page Requirements
@@ -56,14 +56,14 @@ The purpose of this file is to function as our software requirements specificati
   | NFR5 | News page shall have individual article elements that are condensed and easy to read. | 
   | NFR6 | News page shall contain up to date and relevant information to the user regarding cryptocurrency. | 
   | NFR7 | News page shall only pull data from reputable news sources regarding cryptocurrency.  | 
-  | NFR8 | News page shall only pull data from reputable news sources regarding cryptocurrency.  | 
+  | NFR8 | News page shall display logos of the specific cryptocurrency.  | 
 
   
   ### Chatbot Requirements
   | ID | Chatbot | 
   | ---| --- | 
   | NFR9 | The chatbot shall be contrained to use appropriate language only. | 
-  | NFR10 | The avatar on the chatbot shall look happy and engaging. | 
+  | NFR10 | There shall be a message logo on the chat bot pop up for the user to see. | 
   | NFR11| The messages shall have a distinguishing border around the message to stand out on the screen.  | 
   | NFR12| The messages shall have a distinguishing color between the bot and the user to emphasize the message sender.  | 
 
