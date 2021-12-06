@@ -48,6 +48,7 @@ export default {
   position:fixed;
   bottom: 0px;
   right: 0%;
+  z-index:900;
 }
 .footer{
     background-color: #16697a;
