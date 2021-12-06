@@ -1,8 +1,8 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col v-for="(value, key) in cryptos" :key="key" xs="12" md="6">
-        <v-card dark class="card" >
+      <v-col v-for="(value, key) in cryptos" :key="key" sm="12" md="6">
+        <v-card dark class="card" v-if="key=='BTC'" >
             <div class="pt-10">
             <v-img src="@/assets/btc.png" aspect-ratio="3.75" contain></v-img>
             </div>
@@ -14,11 +14,11 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Learn More </v-btn>
+              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
 
               <v-spacer></v-spacer>
 
-              <v-btn icon @click="show = !show">
+              <v-btn icon @click="show1 = !show1">
                 <v-icon>{{
                   show ? "mdi-chevron-up" : "mdi-chevron-down"
                 }}</v-icon>
@@ -26,12 +26,169 @@
             </v-card-actions>
 
             <v-expand-transition>
-              <div v-show="show">
+              <div v-show="show1" >
                 <v-divider></v-divider>
-              <scroll-new :news="newsBTC" v-if="key=='BTC'" ></scroll-new>
+              <scroll-new :news="newsBTC"  ></scroll-new>
               </div>
             </v-expand-transition>
-          </v-card>
+        </v-card>
+
+        <v-card dark class="card" v-if="key=='ETH'" >
+            <div class="pt-10">
+            <v-img src="@/assets/eth.png" aspect-ratio="3.75" contain></v-img>
+            </div>
+
+            <v-card-title primary-title>
+              <span class="left"> {{ key }}</span>
+              <v-spacer></v-spacer>
+              <span class="right">${{ value.USD }}</span>
+            </v-card-title>
+
+            <v-card-actions>
+              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+
+              <v-spacer></v-spacer>
+
+              <v-btn icon @click="show2 = !show2">
+                <v-icon>{{
+                  show2 ? "mdi-chevron-up" : "mdi-chevron-down"
+                }}</v-icon>
+              </v-btn>
+            </v-card-actions>
+
+            <v-expand-transition>
+              <div v-show="show2" >
+                <v-divider></v-divider>
+              <scroll-new :news="news"  ></scroll-new>
+              </div>
+            </v-expand-transition>
+        </v-card>
+
+        <v-card dark class="card" v-if="key=='LTC'" >
+            <div class="pt-10">
+            <v-img src="@/assets/ltc.png" aspect-ratio="3.75" contain></v-img>
+            </div>
+
+            <v-card-title primary-title>
+              <span class="left"> {{ key }}</span>
+              <v-spacer></v-spacer>
+              <span class="right">${{ value.USD }}</span>
+            </v-card-title>
+
+            <v-card-actions>
+              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+
+              <v-spacer></v-spacer>
+
+              <v-btn icon @click="show3 = !show3">
+                <v-icon>{{
+                  show3 ? "mdi-chevron-up" : "mdi-chevron-down"
+                }}</v-icon>
+              </v-btn>
+            </v-card-actions>
+
+            <v-expand-transition>
+              <div v-show="show3" >
+                <v-divider></v-divider>
+              <scroll-new :news="newsLTC"  ></scroll-new>
+              </div>
+            </v-expand-transition>
+        </v-card>
+
+        <v-card dark class="card" v-if="key=='DOGE'" >
+            <div class="pt-10">
+            <v-img src="@/assets/doge.png" aspect-ratio="3.75" contain></v-img>
+            </div>
+
+            <v-card-title primary-title>
+              <span class="left"> {{ key }}</span>
+              <v-spacer></v-spacer>
+              <span class="right">${{ value.USD }}</span>
+            </v-card-title>
+
+            <v-card-actions>
+              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+
+              <v-spacer></v-spacer>
+
+              <v-btn icon @click="show4 = !show4">
+                <v-icon>{{
+                  show4 ? "mdi-chevron-up" : "mdi-chevron-down"
+                }}</v-icon>
+              </v-btn>
+            </v-card-actions>
+
+            <v-expand-transition>
+              <div v-show="show4" >
+                <v-divider></v-divider>
+              <scroll-new :news="newsDOGE"  ></scroll-new>
+              </div>
+            </v-expand-transition>
+        </v-card>
+
+        <v-card dark class="card" v-if="key=='SOL'" >
+            <div class="pt-10">
+            <v-img src="@/assets/sol.png" aspect-ratio="3.75" contain></v-img>
+            </div>
+
+            <v-card-title primary-title>
+              <span class="left"> {{ key }}</span>
+              <v-spacer></v-spacer>
+              <span class="right">${{ value.USD }}</span>
+            </v-card-title>
+
+            <v-card-actions>
+              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+
+              <v-spacer></v-spacer>
+
+              <v-btn icon @click="show5 = !show5">
+                <v-icon>{{
+                  show5 ? "mdi-chevron-up" : "mdi-chevron-down"
+                }}</v-icon>
+              </v-btn>
+            </v-card-actions>
+
+            <v-expand-transition>
+              <div v-show="show5" >
+                <v-divider></v-divider>
+              <scroll-new :news="newsSOL"  ></scroll-new>
+              </div>
+            </v-expand-transition>
+        </v-card>
+
+        <v-card dark class="card" v-if="key=='ADA'" >
+            <div class="pt-10">
+            <v-img src="@/assets/cardano.png" aspect-ratio="3.75" contain></v-img>
+            </div>
+
+            <v-card-title primary-title>
+              <span class="left"> {{ key }}</span>
+              <v-spacer></v-spacer>
+              <span class="right">${{ value.USD }}</span>
+            </v-card-title>
+
+            <v-card-actions>
+              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+
+              <v-spacer></v-spacer>
+
+              <v-btn icon @click="show6 = !show6">
+                <v-icon>{{
+                  show6 ? "mdi-chevron-up" : "mdi-chevron-down"
+                }}</v-icon>
+              </v-btn>
+            </v-card-actions>
+
+            <v-expand-transition>
+              <div v-show="show6" >
+                <v-divider></v-divider>
+              <scroll-new :news="newsADA"  ></scroll-new>
+              </div>
+            </v-expand-transition>
+        </v-card>
+
+        
 
 
       </v-col>
@@ -55,8 +212,16 @@ export default {
       cryptos: [],
       newsBTC: [],
       newsETH: [],
+      newsLTC: [],
       newsADA: [],
-      show: false,
+      newsDOGE: [],
+      newsSOL:[],
+      show1: false,
+      show2: false,
+      show3: false,
+      show4: false,
+      show5: false,
+      show6: false,
       axiosInstance:null
     };
   },
@@ -72,6 +237,26 @@ export default {
       let response=await this.axiosInstance.get("/v1?tickers=BTC&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
       this.newsBTC=response.data.data
     },
+    async getNewsETH(){
+      let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      this.newsETH=response.data.data
+    },
+    async getNewsLTC(){
+      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      this.newsLTC=response.data.data
+    },
+    async getNewsDOGE(){
+      let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      this.newsDOGE=response.data.data
+    },
+    async getNewsSOL(){
+      let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      this.newsSOL=response.data.data
+    },
+    async getNewsADA(){
+      let response=await this.axiosInstance.get("/v1?tickers=ADA&items=50&token=jnkbfh0hyeatrj4ab6fjuzykfusyx1aehhsl2l7i")
+      this.newsADA=response.data.data
+    }
 
   },
   created() {
@@ -82,6 +267,11 @@ export default {
     // let todaysDate=`${new Date().getFullYear()}-${new Date().getMonth()+1}-${new Date().getDate()-1}`
     this.getCryptoCoin()
     this.getNewsBTC()
+    this.getNewsETH()
+    this.getNewsLTC()
+    this.getNewsDOGE()
+    this.getNewsSOL()
+    this.getNewsADA()
     
   },
 };

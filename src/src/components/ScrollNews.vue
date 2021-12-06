@@ -23,6 +23,8 @@
             <v-btn
               depressed
               small
+              :href="item.news_url"
+              target="_blank"
             >
               
 
