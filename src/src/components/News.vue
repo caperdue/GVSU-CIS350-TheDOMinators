@@ -20,7 +20,7 @@
 
               <v-btn icon @click="show1 = !show1">
                 <v-icon>{{
-                  show ? "mdi-chevron-up" : "mdi-chevron-down"
+                  show1 ? "mdi-chevron-up" : "mdi-chevron-down"
                 }}</v-icon>
               </v-btn>
             </v-card-actions>
@@ -59,7 +59,7 @@
             <v-expand-transition>
               <div v-show="show2" >
                 <v-divider></v-divider>
-              <scroll-new :news="news"  ></scroll-new>
+              <scroll-new :news="newsETH"  ></scroll-new>
               </div>
             </v-expand-transition>
         </v-card>
@@ -242,7 +242,7 @@ export default {
       this.newsETH=response.data.data
     },
     async getNewsLTC(){
-      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=jlxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
+      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
       this.newsLTC=response.data.data
     },
     async getNewsDOGE(){
