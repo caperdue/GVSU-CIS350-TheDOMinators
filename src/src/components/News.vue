@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-row>
       <v-col v-for="(value, key) in cryptos" :key="key" sm="12" md="6">
-        <v-card dark class="card" v-if="key=='BTC'" >
+        <v-card dark class="card pink darken-4" v-if="key=='BTC'" >
             <div class="pt-10">
             <v-img src="@/assets/btc.png" aspect-ratio="3.75" contain></v-img>
             </div>
@@ -14,7 +14,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show1 = !show1" text> Scroll for News! </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -33,7 +33,7 @@
             </v-expand-transition>
         </v-card>
 
-        <v-card dark class="card" v-if="key=='ETH'" >
+        <v-card dark class="card green accent-3" v-if="key=='ETH'" >
             <div class="pt-10">
             <v-img src="@/assets/eth.png" aspect-ratio="3.75" contain></v-img>
             </div>
@@ -64,7 +64,7 @@
             </v-expand-transition>
         </v-card>
 
-        <v-card dark class="card" v-if="key=='LTC'" >
+        <v-card dark class="card orange darken-3" v-if="key=='LTC'" >
             <div class="pt-10">
             <v-img src="@/assets/ltc.png" aspect-ratio="3.75" contain></v-img>
             </div>
@@ -95,7 +95,7 @@
             </v-expand-transition>
         </v-card>
 
-        <v-card dark class="card" v-if="key=='DOGE'" >
+        <v-card dark class="card indigo accent-2" v-if="key=='DOGE'" >
             <div class="pt-10">
             <v-img src="@/assets/doge.png" aspect-ratio="3.75" contain></v-img>
             </div>
@@ -107,7 +107,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show4 = !show4" text> Scroll for News! </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -126,7 +126,7 @@
             </v-expand-transition>
         </v-card>
 
-        <v-card dark class="card" v-if="key=='SOL'" >
+        <v-card dark class="card grey darken-3" v-if="key=='SOL'" >
             <div class="pt-10">
             <v-img src="@/assets/sol.png" aspect-ratio="3.75" contain></v-img>
             </div>
@@ -138,7 +138,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show5 = !show5" text> Scroll for News! </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -157,7 +157,7 @@
             </v-expand-transition>
         </v-card>
 
-        <v-card dark class="card" v-if="key=='ADA'" >
+        <v-card dark class="card light-green lighten-1" v-if="key=='ADA'" >
             <div class="pt-10">
             <v-img src="@/assets/cardano.png" aspect-ratio="3.75" contain></v-img>
             </div>
@@ -169,7 +169,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show6 = !show6" text> Scroll for News! </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -234,23 +234,23 @@ export default {
     
     },
     async getNewsBTC(){
-      let response=await this.axiosInstance.get("/v1?tickers=BTC&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
+      let response=await this.axiosInstance.get("/v1?tickers=BTC&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
       this.newsBTC=response.data.data
     },
     async getNewsETH(){
-      let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
+      let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
       this.newsETH=response.data.data
     },
     async getNewsLTC(){
-      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
+      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
       this.newsLTC=response.data.data
     },
     async getNewsDOGE(){
-      let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
+      let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
       this.newsDOGE=response.data.data
     },
     async getNewsSOL(){
-      let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuvicl")
+      let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
       this.newsSOL=response.data.data
     },
     async getNewsADA(){
