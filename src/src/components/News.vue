@@ -14,7 +14,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" @click="show1 = !show1" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show1 = !show1" text></v-btn>
 
               <v-spacer></v-spacer>
 
@@ -45,7 +45,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" @click="show2 = !show2" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show2 = !show2" text></v-btn>
 
               <v-spacer></v-spacer>
 
@@ -76,7 +76,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" text></v-btn>
 
               <v-spacer></v-spacer>
 
@@ -107,7 +107,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" @click="show4 = !show4" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show4 = !show4" text></v-btn>
 
               <v-spacer></v-spacer>
 
@@ -138,7 +138,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" @click="show5 = !show5" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show5 = !show5" text></v-btn>
 
               <v-spacer></v-spacer>
 
@@ -169,7 +169,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" @click="show6 = !show6" text> Scroll for News! </v-btn>
+              <v-btn color="#32c8c5" @click="show6 = !show6" text></v-btn>
 
               <v-spacer></v-spacer>
 
