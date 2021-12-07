@@ -234,23 +234,23 @@ export default {
     
     },
     async getNewsBTC(){
-      let response=await this.axiosInstance.get("/v1?tickers=BTC&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
+      let response=await this.axiosInstance.get("/v1?tickers=BTC&items=50&token=gzvld6bdrdmmsq0ejjeijzzy8pt1v0dn5mpkrfjs")
       this.newsBTC=response.data.data
     },
     async getNewsETH(){
-      let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
+      let response=await this.axiosInstance.get("/v1?tickers=ETH&items=50&token=gzvld6bdrdmmsq0ejjeijzzy8pt1v0dn5mpkrfjs")
       this.newsETH=response.data.data
     },
     async getNewsLTC(){
-      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
+      let response=await this.axiosInstance.get("/v1?tickers=LTC&items=50&token=gzvld6bdrdmmsq0ejjeijzzy8pt1v0dn5mpkrfjs")
       this.newsLTC=response.data.data
     },
     async getNewsDOGE(){
-      let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
+      let response=await this.axiosInstance.get("/v1?tickers=DOGE&items=50&token=gzvld6bdrdmmsq0ejjeijzzy8pt1v0dn5mpkrfjs")
       this.newsDOGE=response.data.data
     },
     async getNewsSOL(){
-      let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=lxdkon1zqnimjdvweaukwedl8ekbxpoaqpiuviclB")
+      let response=await this.axiosInstance.get("/v1?tickers=SOL&items=50&token=gzvld6bdrdmmsq0ejjeijzzy8pt1v0dn5mpkrfjs")
       this.newsSOL=response.data.data
     },
     async getNewsADA(){
