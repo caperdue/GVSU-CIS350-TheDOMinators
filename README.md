@@ -18,6 +18,6 @@ You will need Vue installed, and NodeJS.
 4. Run npm install
 5. Run npm run serve from the source of the path. 
 6. You should see a link that says "localhost:8080". Click on it!
-7. It should be live!
+7. It should be live in your web browser!
 
 * If there are any errors installing any dependencies or node is asking for dependencies, just run the suggested command it displays in terminal or contact one us you need help.
