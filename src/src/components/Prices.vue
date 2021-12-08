@@ -16,7 +16,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Learn More </v-btn>
+              <v-btn color="#32c8c5" @click="show = !show" text> Learn More </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -52,7 +52,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Learn More </v-btn>
+              <v-btn color="#32c8c5" @click="show1 = !show1" text> Learn More </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -91,7 +91,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Learn More </v-btn>
+              <v-btn color="#32c8c5" @click="show2 = !show2" text> Learn More </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -128,7 +128,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Learn More </v-btn>
+              <v-btn color="#32c8c5" @click="show3 = !show3" text> Learn More </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -168,7 +168,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Learn More </v-btn>
+              <v-btn color="#32c8c5" @click="show4 = !show4" text> Learn More </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -210,7 +210,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn color="#32c8c5" text> Learn More </v-btn>
+              <v-btn color="#32c8c5" @click="show5 = !show5" text> Learn More </v-btn>
 
               <v-spacer></v-spacer>
 
