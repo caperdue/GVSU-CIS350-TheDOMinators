@@ -176,10 +176,10 @@ export default {
         },
         {
           name: "Dayaseh Johnson",
-          img: "",
-          desc: "",
+          img: require("../assets/Johnson.jpg"),
+          desc: "I started out college as a Mechanical Engineering major, knowing absolutely nothing about code. 2 Years later I changed my Major to Computer science and have not looked back. I do not have very much experience with programming, but I am always anxious to learn new languages and techniques. I hope to work in Web Development after I graduate. Dream job would be Hydrogen fuel cell research, or any alternative fuel research",
           color: "green",
-          location: "",
+          location: "Taylor, MI",
         },
       ],
     };
