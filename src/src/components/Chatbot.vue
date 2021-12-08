@@ -86,7 +86,7 @@ export default {
 <style scoped>
 #chatBox {
   overflow-y:auto;
-  max-height: 300px;
+  max-height: 500px;
 }
 .chat-bubble {
   margin-left: 10px;

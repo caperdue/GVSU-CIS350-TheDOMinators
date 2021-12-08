@@ -6,18 +6,19 @@ class Bot {
     }
 
     async getBotResponse(msg) {
-        let response = "Sorry, Cryptfo Bot is not set up yet to handle that response!";
+        let response = ["Sorry, Cryptfo Bot is not set up yet to handle that response!"];
         const message = msg.toLowerCase();
         if (message.includes("help")) {
-            const responses = ["Typing any of these can help you out...", 
-            "Page redirection - 'price': Redirect to price page, 'news': Redirect to news page, 'home': Redirect to home page",
-            "Current information - 'price of': Get the price of a current cryptocurrency in-chat (note, please enter the TICKER only), 'news about': Get news about something in-chat",
-        ]
+            const responses = [`Cryptfo Help Bot can currently assist you with
+            getting a cryptocurrency price or redirect you to a page that you are interested in. For example, you can say, 'What's the price of BTC?' or 'Redirect me to the news page please.'`]
+        
             response = this.sendMessage(responses);
         }
 
         else if (message.includes("price of")) {
-            const separatedMsg = msg.split(' ');
+            const noQuestions = msg.replace("?", "");
+            console.log(noQuestions);
+            const separatedMsg = noQuestions.split(' ');
             const crypto = separatedMsg[separatedMsg.indexOf('of') + 1];
             const price = await axios.get(`https://min-api.cryptocompare.com/data/pricemulti?fsyms=${crypto}&tsyms=USD`).then(price => {
             
@@ -25,7 +26,6 @@ class Bot {
             })
             
             
-            AppRouter.replace('/prices')
         }
 
         else if (message.includes("price")) {
@@ -36,6 +36,11 @@ class Bot {
         else if (message.includes("news")) {
             response = [this.sendMessage("To find out the latest news, Cryptfo has a news panel that can direct you to find the latest information about cryptocurrencies. I've just directed you to there.")];
             AppRouter.replace('/news');
+        }
+        
+        else if (message.includes("home")) {
+            response = [this.sendMessage("Just redirected you to the home page!")];
+            AppRouter.replace('/');
         }
 
         else if(message.includes("thank")) {
