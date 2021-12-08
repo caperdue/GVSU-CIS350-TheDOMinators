@@ -155,7 +155,10 @@ export default {
         {
           name: "Carly Perdue",
           img: require("../assets/perdue.jpg"),
-          desc: "",
+          desc: `I'm a junior studying Computer Science at GVSU! I started out playing games and wondering how they worked
+          behind the scenes, so here I am! I currently am a Software Developer Intern at Service Express and have a passion for
+          web and mobile development. On my free time, I love to learn more about Flutter mobile development, but also love Vue!
+          `,
           color: "teal",
           location: "Muskegon, MI",
         },
@@ -170,9 +173,9 @@ export default {
         {
           name: "Devin Merchant",
           img: require("../assets/merchant.jpg"),
-          desc: "",
+          desc: `Hi, I’m @mDevinn! I’m interested in Web Developement. I’m currently learning Computer Science at GVSU! I’m looking to continue to deepen my understanding of the web and to build websites in the meantime!`,
           color: "orange",
-          location: "",
+          location: "Grand Rapids, MI",
         },
         {
           name: "Dayaseh Johnson",
@@ -198,11 +201,12 @@ h1 {
 }
 
 p {
-  font-size: calc(9px + 1.5vw);
+  font-size: calc(7px + 1.5vw);
   text-align: center;
   color: white;
 }
 .about-me {
   font-size: calc(12px + 0.6vw);
+  padding: 5px;
 }
 </style>
