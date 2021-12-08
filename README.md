@@ -11,4 +11,11 @@ This project will be a Vue application providing information about cryptocurrenc
 * [Priscila Ontiveros](https://github.com/megapris/CIS350-HW2-ontiveros)
 
 ## Prerequisites
+You will need Vue installed, and NodeJS.
 ## Run Instructions
+1. Pull the repository
+2. Open a terminal
+3. Run npm install
+4. Run npm run serve
+5. You should see a link that says "localhost:8080". Click on it!
+6. It should be live!
