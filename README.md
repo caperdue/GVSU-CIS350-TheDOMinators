@@ -16,7 +16,7 @@ You will need Vue installed, and NodeJS.
 1. Pull the repository
 2. Open a terminal
 4. Run npm install
-5. Run npm run serve from the source of the path. 
+5. Run npm run serve from the source of the path (should be outer most src folder of the repo)
 6. You should see a link that says "localhost:8080". Click on it!
 7. It should be live in your web browser!
 
