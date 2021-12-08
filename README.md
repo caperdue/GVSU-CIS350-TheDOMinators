@@ -15,7 +15,9 @@ You will need Vue installed, and NodeJS.
 ## Run Instructions
 1. Pull the repository
 2. Open a terminal
-3. Run npm install
-4. Run npm run serve
-5. You should see a link that says "localhost:8080". Click on it!
-6. It should be live!
+4. Run npm install
+5. Run npm run serve from the source of the path. 
+6. You should see a link that says "localhost:8080". Click on it!
+7. It should be live!
+
+* If there are any errors installing any dependencies or node is asking for dependencies, just run the suggested command it displays in terminal or contact one us you need help.
