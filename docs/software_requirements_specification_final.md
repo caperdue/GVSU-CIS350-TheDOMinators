@@ -81,7 +81,7 @@ The purpose of this file is to function as our software requirements specificati
   # Software Artifacts
   The purpose of this section is to display artifacts that we developed as a part of our process for this project.
   
-  * [Gaant Chart](https://github.com/caperdue/GVSU-CIS350-TheDOMinators/blob/master/docs/Gantt%20chart.pdf)
+  * [Gantt Chart](https://github.com/caperdue/GVSU-CIS350-TheDOMinators/blob/master/docs/Gantt%20chart.pdf)
   * [Chat Bot Use Case Diagram](https://github.com/caperdue/GVSU-CIS350-TheDOMinators/blob/master/artifacts/use_case_diagrams/ChatBotUseCaseDiagram.PNG)
   * [News Use Case Diagram](https://github.com/caperdue/GVSU-CIS350-TheDOMinators/blob/master/artifacts/use_case_diagrams/News%20Use%20Case.png)
   * [Prices Use Case Diagram](https://github.com/caperdue/GVSU-CIS350-TheDOMinators/blob/master/artifacts/use_case_diagrams/displayPageUseCaseDiagram.PNG)
