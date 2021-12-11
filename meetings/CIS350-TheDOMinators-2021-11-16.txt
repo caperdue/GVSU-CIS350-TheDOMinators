@@ -1,0 +1,15 @@
+Team name: The DOMinators
+
+Members present: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
+
+Date: 11/16/21
+
+Time: 6:30 - 7:15 (45 Minutes)
+
+Discussion points:
+* Make the home page have a "about the developers section"
+* Start implementing vuetify on the prices page
+
+Goals for next week (include responsibilities)
+* Think about final presentation, about one month left to work on project!
+* Research a little bit on the autorefresh feature for the news and prices

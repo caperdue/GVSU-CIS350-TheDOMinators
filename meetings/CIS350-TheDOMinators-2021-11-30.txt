@@ -1,0 +1,17 @@
+Team name: The DOMinators
+
+Members present: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
+
+Date: 11/30/21
+
+Time: 6:30 - 7:15 (45 Minutes)
+
+Discussion points:
+* Think of new news APIs that allow free use when deployin
+* Revise state of webiste and compare it to NFR and FR
+* Start working on final presentation
+
+Goals for next week (include responsibilities)
+* Priscila and Carly to look better APIs
+* Devin to keep working on prices API
+* DJ to keep working on home page

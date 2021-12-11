@@ -1,0 +1,15 @@
+Team name: The DOMinators
+
+Members present: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
+
+Date: 12/01/21
+
+Time: 6:30 - 7:00 (30 Minutes)
+
+Discussion points:
+* Work on final presentation, and final touches
+* Make sure to have a backup of the demo, in case something fails
+* Finally fixed chatbot location!
+Goals for next week (include responsibilities)
+* Practice presentation by ourselves and make sure we hit the target time
+* Revise again NFR and FRS, and create a new SRS with the final changes

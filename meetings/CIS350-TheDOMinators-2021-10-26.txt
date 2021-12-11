@@ -1,0 +1,16 @@
+Team name: The DOMinators
+
+Members present: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
+
+Date: 9/28/21
+
+Time: 6:30 - 7:15 (45 Minutes)
+
+Discussion points:
+* Make sure feedback from assignment 4 is taken into account if needed
+* Talk about possible APIs to be used
+
+Goals for next week (include responsibilities)
+* Keep learning some Vue
+* Chit-chat about issues or questions we have with Vue
+* Take a look at how node works

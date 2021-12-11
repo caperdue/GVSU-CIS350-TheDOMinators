@@ -1,0 +1,15 @@
+Team name: The DOMinators
+
+Members present: Carly Perdue, Devin Merchant, Dayaseh Johnson, Priscila Ontiveros
+
+Date: 11/01/21
+
+Time: 6:30 - 7:15 (45 Minutes)
+
+Discussion points:
+* Think if to we need to make chatbot feature from scratch
+* Make sure that APIs found satisfy both NFR and FR
+
+Goals for next week (include responsibilities)
+* Work on understanding the documentation of the APIs
+* look up chatbot APIs if we end up taking that route
